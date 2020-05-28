@@ -1,4 +1,5 @@
 # mypyutils
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/l50/mypyutils/blob/master/LICENSE)
 
 This repo is comprised of utilities that I use across various python projects.
 
