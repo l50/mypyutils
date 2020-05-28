@@ -1,5 +1,6 @@
 # mypyutils
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/l50/mypyutils/blob/master/LICENSE)
+[![Build Status](https://dev.azure.com/jaysonegrace/mypyutils/_apis/build/status/l50.mypyutils?branchName=master)](https://dev.azure.com/jaysonegrace/mypyutils/_build/latest?definitionId=30&branchName=master)
 
 This repo is comprised of utilities that I use across various python projects.
 
