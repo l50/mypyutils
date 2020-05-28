@@ -1,13 +1,10 @@
 import unittest
 import platform
-import subprocess
 from mypyutils import sysutils
 
+__auth__ = 'jayson.e.grace@gmail.com'
+
 class SysUtilsTests(unittest.TestCase):
-    def test_chomp(self):
-        test_str = 'blablabla\r\n'
-        self.assertEqual(sysutils.chomp(test_str), 'blablabla')
-    
     def test_run_cmd(self):
         cmd = 'uname'
-        self.assertEqual(sysutils.chomp(sysutils.run_cmd(cmd)), platform.system())
+        self.assertEqual(sysutils.run_cmd(cmd).strip(), platform.system())
