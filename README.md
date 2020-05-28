@@ -16,3 +16,4 @@ python -m unittest discover -s tests -p "*_tests.py"
 
 **Resources:**  
 https://medium.com/@lynzt/install-python-packages-from-github-5866d234c4e4
+https://stackoverflow.com/questions/17353213/init-for-unittest-testcase
